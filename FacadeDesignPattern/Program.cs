@@ -6,7 +6,8 @@ namespace FacadeDesignPattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Example1 ex1 = new Example1();
+            ex1.RunExample1();
         }
     }
 }
